@@ -63,6 +63,9 @@ h1 > .table-tennis{
     list-style-type: none;
     letter-spacing: 4px;
     position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: right;
 }
 
 
@@ -103,3 +106,4 @@ main {
 footer {
     background-color: #083560;
 }
+ 
