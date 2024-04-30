@@ -33,9 +33,13 @@ header {
     background-color: #DEE7ED;
     padding: 0 1rem;
     position:fixed;
-    z-index: 99;
+    z-index: 98;
     width: 100%;
     box-shadow: 0 2px 2px #3F5062;
+    /*toggle dropdown*/
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 header a {
     text-decoration: none;
@@ -49,9 +53,43 @@ h1 > .the-art{
 h1 > .table-tennis{
     color: #302622;
     -webkit-text-stroke: 1px #DEE7ED;
+    position: relative;
+    left: 4rem;
+    z-index: 99;
+}
+
+#menu {
+    font-family: "Montserrat alternates", sans-serif;
+    list-style-type: none;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+
+/* Nav style and drop down */
+nav {
     position: absolute;
-    display: flex;
-    left: 3em;
+    background-color: #DEE7ED;
+    width: 100%;
+    left: 0;
+    padding: 0 2rem;
+    box-shadow: 0 2px 2px #3F5062;
+    display: none;
+    top: 100%;
+}
+
+/* nav dropdown */ 
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle{
+    display: none;
+}
+.nav-toggle-label{
+    font-size: 2rem;
+    position: absolute;
+    right: 3rem;
+    bottom: 1rem;
 }
 
 /* Main */
