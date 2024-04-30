@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
     /* styles */
     color: #3F5062;
     font-family: "Lora", sans-serif
@@ -20,11 +21,37 @@ body {
 
 h1 {
     font-family: "figtree", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #302622;
+    position: relative;
 }
+
 
 /* Header */
 header {
     background-color: #DEE7ED;
+    padding: 0 1rem;
+    position:fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3F5062;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Logo */
+h1 > .the-art{
+    color: #C51718;
+    -webkit-text-stroke: 1px #DEE7ED;
+}
+h1 > .table-tennis{
+    color: #302622;
+    -webkit-text-stroke: 1px #DEE7ED;
+    position: absolute;
+    display: flex;
+    left: 3em;
 }
 
 /* Main */
