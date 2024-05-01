@@ -15,7 +15,7 @@ body {
     flex-direction: column;
 
     /* styles */
-    color: #3F5062;
+    color: #083560;
     font-family: "Lora", sans-serif
 }
 
@@ -40,6 +40,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+
 }
 header a {
     text-decoration: none;
@@ -49,24 +50,29 @@ header a {
 h1 > .the-art{
     color: #C51718;
     -webkit-text-stroke: 1px #DEE7ED;
+
 }
 h1 > .table-tennis{
     color: #302622;
     -webkit-text-stroke: 1px #DEE7ED;
     position: relative;
-    left: 4rem;
+    left: 0.1rem;
     z-index: 99;
+
 }
 
 #menu {
     font-family: "Montserrat alternates", sans-serif;
     list-style-type: none;
     letter-spacing: 4px;
-    position: relative;
-    display: flex;
-    flex-flow: column;
-    justify-content: right;
+    margin-top: 1px; 
+    color: #083560;
 }
+
+#menu a:hover {
+    color: red;
+}
+
 
 
 /* Nav style and drop down */
@@ -89,15 +95,16 @@ nav {
     display: none;
 }
 .nav-toggle-label{
-    font-size: 2rem;
+    font-size: 2.5rem;
     position: absolute;
-    right: 3rem;
-    bottom: 1rem;
+    right: 2rem;
+    bottom: 1.7rem;
+    color: #083560;
 }
 
 /* Main */
 main {
-    background-color: #5381B2;
+    background-color: #AF977B;
     /* Main content takes up any surplus on page*/
     flex: 1 0 auto;
 }
@@ -105,5 +112,60 @@ main {
 /* Footer */
 footer {
     background-color: #083560;
+    color: #AF977B ;
+}
+
+/* Media query: large or landscape phones (576px & up) */
+@media screen and (min-width: 576px) {
+    #logo {
+        font-size: 280%;
+        margin: 0 0.5rem;
+    }
+    h1 > .table-tennis {
+        left: 7rem;
+    }
+
 }
  
+/* Media query: tablets and larger (824px & up) */
+
+/* Header */
+@media screen and (min-width: 824px) {
+#logo {
+    font-size: 280%;
+    margin: 0 0.5rem;
+}
+
+h1 > .table-tennis {
+    left: 10rem;
+}
+#menu{
+    color: #083560;
+}
+
+/* Navigation */
+.nav-toggle-label {
+    display: none;
+}
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
+#menu {
+    display: flex;
+    color: #083560;
+    font-size: 100%;
+}
+
+}
+
+/* Media query: laptops and larger (982px & up) */
+
+/* Header */ 
+
+#menu {
+    font-size: 150%;
+}
