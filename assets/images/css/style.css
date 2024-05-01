@@ -124,22 +124,72 @@ main {
 #about{
     width: 90%;
     margin: 20px auto;
-    height: 600px;
+    height: auto;
 }
 #about h2 {
     font-size: 220%;
     text-align: center;
 }
+#workshop-intro p {
+    margin-bottom: 20px;
+}
+#about p {
+    padding: 0 20px;
+}
 
 hr {
-    margin: 5px 0;
-    border-top: 2px solid rgb(24, 23, 23);
+    border: none;
+    background-color: #000;
+    color: #000;
+    height: 2px;
+    width: 80%;
+
 }
 
-#tabletennis-bat {
-    width: 100px
-
+#table-tennis-bat {
+    background: url(../table\ tennis\ bat\ with\ shadow.png) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    max-width: 400px;
+    max-height: 400px;
 }
+#tabletennis-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* WorkShop */
+#hero {
+    background: url(../pexels-alexander-dummer-37646-133022.jpg) no-repeat center center/cover;
+    height: 600px;
+    width:100%;
+    box-shadow: inset -10px -10px 10px 20px  #AF977B;
+    position: relative;
+}
+
+
+
+#covertext-wokshop{
+    background-color:rgb(175, 151, 123, .5  ) ;
+    position: absolute;
+    top: 2rem;
+    padding-left: 2rem;
+    min-height: 200px;
+    width: 80%;
+}
+#covertext-training{
+    background-color:rgb(175, 151, 123, .5  ) ;
+    position: absolute;
+    bottom: 4rem;
+    margin-left: 6rem;
+    margin-right: 5rem;
+    min-height: 200px;
+    width: 80%;
+}
+
+
+
 
 /* Footer */
 footer {
