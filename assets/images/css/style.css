@@ -18,6 +18,9 @@ body {
     color: #083560;
     font-family: "Lora", sans-serif
 }
+p {
+    font-weight: 500;
+}
 
 h1 {
     font-family: "figtree", sans-serif;
@@ -78,7 +81,7 @@ h1 > .table-tennis{
 /* Nav style and drop down */
 nav {
     position: absolute;
-    background-color: #DEE7ED;
+    background-color: rgb(222, 231, 237, .4);
     width: 100%;
     left: 0;
     padding: 0 2rem;
@@ -86,6 +89,7 @@ nav {
     display: none;
     top: 100%;
 }
+
 
 /* nav dropdown */ 
 #nav-toggle:checked~nav {
@@ -107,12 +111,41 @@ main {
     background-color: #AF977B;
     /* Main content takes up any surplus on page*/
     flex: 1 0 auto;
+
+    /*push main content down */
+    margin-top: 78px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* About */
+
+#about{
+    width: 90%;
+    margin: 20px auto;
+    height: 600px;
+}
+#about h2 {
+    font-size: 220%;
+    text-align: center;
+}
+
+hr {
+    margin: 5px 0;
+    border-top: 2px solid rgb(24, 23, 23);
+}
+
+#tabletennis-bat {
+    width: 100px
+
 }
 
 /* Footer */
 footer {
     background-color: #083560;
     color: #AF977B ;
+    width: 100%;
 }
 
 /* Media query: large or landscape phones (576px & up) */
@@ -124,10 +157,15 @@ footer {
     h1 > .table-tennis {
         left: 7rem;
     }
+    /* Main */
+    main {
+        margin-top: 103px;
+    }
+    
 
 }
  
-/* Media query: tablets and larger (824px & up) */
+/* Media query: (824px & up) */
 
 /* Header */
 @media screen and (min-width: 824px) {
@@ -138,9 +176,6 @@ footer {
 
 h1 > .table-tennis {
     left: 10rem;
-}
-#menu{
-    color: #083560;
 }
 
 /* Navigation */
@@ -155,17 +190,22 @@ nav {
     padding-right: 1rem;
 }
 #menu {
-    display: flex;
+display: flex;
     color: #083560;
     font-size: 100%;
 }
+/* Main */
+
 
 }
 
 /* Media query: laptops and larger (982px & up) */
+@media screen and (min-width: 961px) {
 
 /* Header */ 
 
 #menu {
     font-size: 150%;
+}
+
 }
