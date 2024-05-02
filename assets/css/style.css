@@ -176,7 +176,7 @@ hr {
 /* WorkShop */
 #hero {
     background: url(../images/pexels-alexander-dummer-37646-133022.jpg) no-repeat center center/cover;
-    height: 600px;
+    height: 700px;
     width: 100%;
     box-shadow: inset -10px -10px 10px 20px #ffff;
     position: relative;
@@ -195,10 +195,11 @@ hr {
 #covertext-training {
     background-color: rgb(175, 151, 123, .5);
     position: absolute;
-    bottom: 4rem;
+    bottom: 10rem;
     right: 1.5rem;
     min-height: 200px;
     width: 80%;
+    font-size: 80%;
 }
 
 #hero hr {
@@ -206,14 +207,13 @@ hr {
 }
 
 /* Submit button */
-input[type=submit] {
+ input[type=submit] {
     background-color: #083560;
     position: relative;
     color: white;
     display: block;
     margin: auto;
     top: 1rem;
-
     padding: 8px 15px;
     border: none;
     border-radius: 4px;
