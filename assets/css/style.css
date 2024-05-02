@@ -8,16 +8,15 @@
 }
 
 /* General style */
-
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     /* styles */
     color: #083560;
     font-family: "Lora", sans-serif
 }
+
 p {
     font-weight: 500;
 }
@@ -30,12 +29,11 @@ h1 {
     position: relative;
 }
 
-
 /* Header */
 header {
     background-color: #DEE7ED;
     padding: 0 1rem;
-    position:fixed;
+    position: fixed;
     z-index: 98;
     width: 100%;
     box-shadow: 0 2px 2px #3F5062;
@@ -43,45 +41,59 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
+
 header a {
     text-decoration: none;
     color: inherit;
 }
+
 /* Logo */
-h1 > .the-art{
+h1>.the-art {
     color: #C51718;
     -webkit-text-stroke: 1px #DEE7ED;
-
 }
-h1 > .table-tennis{
+
+h1>.table-tennis {
     color: #302622;
     -webkit-text-stroke: 1px #DEE7ED;
     position: relative;
     left: 0.1rem;
     z-index: 99;
+}
 
+.bold-red {
+    color: #C51718;
+    font-weight: bold;
+}
+
+.bold-dark {
+    color: #302622;
+    font-weight: bold;
 }
 
 #menu {
     font-family: "Montserrat alternates", sans-serif;
     list-style-type: none;
+    position: relative;
     letter-spacing: 4px;
-    margin-top: 1px; 
+    margin-top: 1px;
     color: #083560;
+}
+
+#menu ul {
+    position: absolute;
+    right: 1.5rem;
 }
 
 #menu a:hover {
     color: red;
 }
 
-
-
 /* Nav style and drop down */
 nav {
     position: absolute;
-    background-color: rgb(222, 231, 237, .4);
+    background-color: rgb(222, 231, 237, .9);
     width: 100%;
     left: 0;
     padding: 0 2rem;
@@ -90,28 +102,28 @@ nav {
     top: 100%;
 }
 
-
-/* nav dropdown */ 
+/* nav dropdown */
 #nav-toggle:checked~nav {
     display: block;
 }
-#nav-toggle{
+
+#nav-toggle {
     display: none;
 }
-.nav-toggle-label{
+
+.nav-toggle-label {
     font-size: 2.5rem;
     position: absolute;
-    right: 2rem;
+    right: 1.5rem;
     bottom: 1.7rem;
     color: #083560;
 }
 
 /* Main */
 main {
-    background-color: #AF977B;
+    background-color: #ffff;
     /* Main content takes up any surplus on page*/
     flex: 1 0 auto;
-
     /*push main content down */
     margin-top: 78px;
     display: flex;
@@ -120,19 +132,21 @@ main {
 }
 
 /* About */
-
-#about{
+#about {
     width: 90%;
     margin: 20px auto;
     height: auto;
 }
+
 #about h2 {
     font-size: 220%;
     text-align: center;
 }
+
 #workshop-intro p {
     margin-bottom: 20px;
 }
+
 #about p {
     padding: 0 20px;
 }
@@ -143,16 +157,16 @@ hr {
     color: #000;
     height: 2px;
     width: 80%;
-
 }
 
 #table-tennis-bat {
-    background: url(../table\ tennis\ bat\ with\ shadow.png) no-repeat top center / cover;
+    background: url(../images/tabletenniswhitebg.png) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     max-width: 400px;
     max-height: 400px;
 }
+
 #tabletennis-image {
     display: flex;
     align-items: center;
@@ -161,101 +175,128 @@ hr {
 
 /* WorkShop */
 #hero {
-    background: url(../pexels-alexander-dummer-37646-133022.jpg) no-repeat center center/cover;
+    background: url(../images/pexels-alexander-dummer-37646-133022.jpg) no-repeat center center/cover;
     height: 600px;
-    width:100%;
-    box-shadow: inset -10px -10px 10px 20px  #AF977B;
+    width: 100%;
+    box-shadow: inset -10px -10px 10px 20px #ffff;
     position: relative;
 }
 
-
-
-#covertext-wokshop{
-    background-color:rgb(175, 151, 123, .5  ) ;
+#covertext-wokshop {
+    background-color: rgb(175, 151, 123, .5);
     position: absolute;
     top: 2rem;
     padding-left: 2rem;
     min-height: 200px;
     width: 80%;
+    font-size: 80%;
 }
-#covertext-training{
-    background-color:rgb(175, 151, 123, .5  ) ;
+
+#covertext-training {
+    background-color: rgb(175, 151, 123, .5);
     position: absolute;
     bottom: 4rem;
-    margin-left: 6rem;
-    margin-right: 5rem;
+    right: 1.5rem;
     min-height: 200px;
     width: 80%;
 }
 
+#hero hr {
+    width: 65%;
+}
 
+/* Submit button */
+input[type=submit] {
+    background-color: #083560;
+    position: relative;
+    color: white;
+    display: block;
+    margin: auto;
+    top: 1rem;
 
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Where to find us */
+
+.map {
+    width: 100%;
+    box-shadow: inset -10px -10px 10px 20px #ffff;
+
+}
 
 /* Footer */
 footer {
     background-color: #083560;
-    color: #AF977B ;
+    color: #AF977B;
     width: 100%;
 }
 
 /* Media query: large or landscape phones (576px & up) */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 530px) {
     #logo {
         font-size: 280%;
         margin: 0 0.5rem;
     }
-    h1 > .table-tennis {
+
+    h1>.table-tennis {
         left: 7rem;
     }
+
     /* Main */
     main {
-        margin-top: 103px;
+        margin-top: 97px;
     }
-    
 
 }
- 
-/* Media query: (824px & up) */
 
+/* Media query: (824px & up) */
 /* Header */
 @media screen and (min-width: 824px) {
-#logo {
-    font-size: 280%;
-    margin: 0 0.5rem;
-}
+    #logo {
+        font-size: 250%;
+        margin: 0 0.5rem;
+    }
 
-h1 > .table-tennis {
-    left: 10rem;
-}
+    h1>.table-tennis {
+        left: 10rem;
+    }
 
-/* Navigation */
-.nav-toggle-label {
-    display: none;
-}
-nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-}
-#menu {
-display: flex;
-    color: #083560;
-    font-size: 100%;
-}
-/* Main */
+    /* Navigation */
+    .nav-toggle-label {
+        display: none;
+    }
 
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 0.5rem;
+    }
 
+    #menu {
+        display: flex;
+        color: #083560;
+        font-size: 90%;
+    }
+
+    /* Main */
 }
 
 /* Media query: laptops and larger (982px & up) */
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 982px) {
 
-/* Header */ 
+    /* Header */
+    #menu {
+        font-size: 150%;
+    }
 
-#menu {
-    font-size: 150%;
-}
-
+    /* Main */
+    main {
+        margin-top: 98px;
+    }
 }
