@@ -225,7 +225,11 @@ hr {
 .map {
     width: 100%;
     box-shadow: inset -10px -10px 10px 20px #ffff;
-
+}
+.location h2 {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
 }
 
 /* Footer */
