@@ -121,7 +121,7 @@ nav {
 
 /* Main */
 main {
-    background-color: #ffff;
+    background-color: #dedada;
     /* Main content takes up any surplus on page*/
     flex: 1 0 auto;
     /*push main content down */
@@ -132,23 +132,31 @@ main {
 }
 
 /* About */
-#about {
+.about {
     width: 90%;
     margin: 20px auto;
     height: auto;
+    display: flex;
 }
 
-#about h2 {
+.about h2 {
     font-size: 220%;
     text-align: center;
+    position: relative;
+    padding-bottom: 2rem;
 }
 
 #workshop-intro p {
     margin-bottom: 20px;
 }
 
-#about p {
+.about p {
     padding: 0 20px;
+}
+
+#club-intro p {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
 }
 
 hr {
@@ -159,26 +167,35 @@ hr {
     width: 80%;
 }
 
-#table-tennis-bat {
-    background: url(../images/tabletenniswhitebg.png) no-repeat top center / cover;
+/* Table Tennis Bat */
+
+.table-tennis-bat {
+    background: url(../images/tableTennisBatGreyBG.png) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
+
+
 }
 
-#tabletennis-image {
+.tabletennis-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Image animation */
+
+
+
 
 /* WorkShop */
 #hero {
     background: url(../images/pexels-alexander-dummer-37646-133022.jpg) no-repeat center center/cover;
     height: 700px;
     width: 100%;
-    box-shadow: inset -10px -10px 10px 20px #ffff;
+    box-shadow: inset -10px -10px 10px 20px #dedada;
     position: relative;
 }
 
@@ -206,8 +223,8 @@ hr {
     width: 65%;
 }
 
-/* Submit button */
- input[type=submit] {
+/* buttons */
+.buttons {
     background-color: #083560;
     position: relative;
     color: white;
@@ -220,16 +237,31 @@ hr {
     cursor: pointer;
 }
 
+.buttons:hover {
+    background-color: #002ead;
+    transition: 0.7s;
+}
+.button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+    transition: 0.7s;
+}
+
+
+
 /* Where to find us */
 
 .map {
     width: 100%;
     box-shadow: inset -10px -10px 10px 20px #ffff;
 }
+
 .location h2 {
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 1rem;
+    font-size: 160%;
 }
 
 /* Footer */
@@ -239,8 +271,31 @@ footer {
     width: 100%;
 }
 
+#social-media {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+#social-media i {
+    color: rgba(216, 147, 67, 0.687);
+    font-size: 150%;
+}
+
+.location h2 {
+    font-size: 180%;
+    background-color: rgb(175, 151, 123, .5);
+    position: relative;
+    padding-top: 1rem;
+    width: 50%;
+    left: 4rem;
+    max-width: 400px;
+}
+
+
 /* Media query: large or landscape phones (576px & up) */
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 576px) {
     #logo {
         font-size: 280%;
         margin: 0 0.5rem;
@@ -255,11 +310,28 @@ footer {
         margin-top: 97px;
     }
 
+    .whatweoffer h2 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    #about-text {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .table-tennis-bat {
+        display: block;
+        position: relative;
+        right: 2rem;
+    }
+
 }
 
-/* Media query: (824px & up) */
+/* Media query: tablets and larger (760px & up) */
+
 /* Header */
-@media screen and (min-width: 824px) {
+@media screen and (min-width: 760px) {
     #logo {
         font-size: 250%;
         margin: 0 0.5rem;
@@ -289,6 +361,20 @@ footer {
     }
 
     /* Main */
+    #about-text {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .whatweoffer h2 {
+        font-size: 260%;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
+
+    .whatweoffer h3 {
+        font-size: 150%;
+    }
 }
 
 /* Media query: laptops and larger (982px & up) */

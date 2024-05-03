@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-    <!-- Meta tags for search engies--> 
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Meta tags for search engies-->
     <meta name="description" content="TheArtofTableTennis is a club for table tennis lovers where they can 
         sign up for workshops to build there own table tennis bat.">
     <meta name="keywords" content="Table Tennis, workshops, design, play, art. ">
@@ -32,19 +32,24 @@
         <nav>
             <ul id="menu">
                 <li><a href=""> About |</a></li>
-                <li><a href="#Workshopmenu"> WorkShops |</a></li>
-                <li><a href=""> Training |</a></li>
+                <li><a href=""> Gallery |</a></li>              
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- Main-->
     <main>
-        <section id="about">
-            <h2>What we <br>Offer!</br></h2>
+        <section class="about">
             <div id="about-text">
+            <div class="tabletennis-image">
+                <div class="table-tennis-bat"></div>
+
+            </div>
+            <div class="whatweoffer">
+            <h2>What we <br>Offer!</br></h2>
+            
                 <div id="workshop-intro">
-                    <h3>WorkShops</h3>
+                    <h3>WorkShops <i class="fa-solid fa-paintbrush"></i></h3>
                     <hr>
                     <p>Here at <span class="bold-red">The Art of</span> <span class="bold-dark">Table Tennis</span> we
                         add a creative twist to our
@@ -52,21 +57,19 @@
                         A Two week course where you design and built your own Bat.</p>
                 </div>
                 <div id="club-intro">
-                    <h3>Table-Tennis Club</h3>
+                    <h3>Table-Tennis Club <i class="fa-solid fa-table-tennis-paddle-ball"></i></h3>
                     <hr>
                     <p> Now that you have your own bat, it only makes sense to get some use out of it.
                         Need a club? No worries, we also have a club.
                     </p>
+
                 </div>
-                <div id="tabletennis-image">
-                    <div id="table-tennis-bat"></div>
-                    <div id="Workshopmenu"></div>
-                </div>
+            </div>
                 
             </div>
-         
+
         </section>
-       
+
         <section id="hero">
             <div class="covertext">
                 <div id="covertext-wokshop">
@@ -76,35 +79,48 @@
                         First we create the bat, after you can design your print
                         and add it to your bat. Intrested? Check out our previous designs.
                     </h3>
-                    <input type="submit" value="Gallery">
+                    <button type="button" class="buttons">Gallery</button>
+
                 </div>
                 <div id="covertext-training">
                     <h2>Training</h2>
                     <hr>
                     <h3> Training is open to everyone whether you have completed the workshops or not.
                         We Train twice a week from 18:30 - 20:30 on Monday's and Sunday's.
-                    </h3>
-                    <a href="#map">
-                    <input type="submit" value="Click to find us">
-                </a>
+                    </h3>    
+                    <button type="button" class="buttons">Get in Touch</button>
+                
                 </div>
             </div>
         </section>
         <section id="location">
             <div class="location">
                 <h2>Where to <br> find us</h2>
+                <br>
                 <div id="map"><iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79537.91402793545!2d-0.474462656640634!3d51.46623789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760cf8c81c5c65%3A0xcb9453c7abf74ddd!2sIsleworth%20Recreation%20Centre!5e0!3m2!1sen!2suk!4v1714655764749!5m2!1sen!2suk"
-                        width=100% height="400"  style="border:0;" allowfullscreen="" loading="lazy"
+                        width=100% height="200" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 
             </div>
         </section>
-       
+
     </main>
     <!-- Footer -->
     <footer>
-        <h2> Footer content </h2>
+        <ul id="social-media">
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instgram page (opens in a new tab) ">
+                    <i class="fa-brands fa-instagram"></i></a></a></li>
+        </ul>
     </footer>
     <!--Font-awsome start kit-->
     <script src="https://kit.fontawesome.com/e048035955.js" crossorigin="anonymous"></script>
