@@ -83,7 +83,7 @@ h1>.table-tennis {
 
 #menu ul {
     position: absolute;
-    right: 1.5rem;
+    right: 1.5regitm;
 }
 
 #menu a:hover {
@@ -137,26 +137,22 @@ main {
     margin: 20px auto;
     height: auto;
     display: flex;
+    justify-content: center;
 }
 
 .about h2 {
     font-size: 220%;
     text-align: center;
     position: relative;
-    padding-bottom: 2rem;
 }
 
-#workshop-intro p {
-    margin-bottom: 20px;
+.about h3 {
+    text-align: center;
+    font-size: 150%;
 }
 
-.about p {
-    padding: 0 20px;
-}
-
-#club-intro p {
-    padding-bottom: 3rem;
-    padding-top: 1rem;
+.about ul {
+    list-style-type: none;
 }
 
 hr {
@@ -167,7 +163,8 @@ hr {
     width: 80%;
 }
 
-/* Table Tennis Bat */
+
+/* Table Tennis Image*/
 
 .table-tennis-bat {
     background: url(../images/tableTennisBatGreyBG.png) no-repeat top center / cover;
@@ -175,6 +172,7 @@ hr {
     width: 90vw;
     max-width: 350px;
     max-height: 350px;
+    margin-top: 2rem;
 
 
 }
@@ -185,38 +183,45 @@ hr {
     justify-content: center;
 }
 
-/* Image animation */
 
 
 
+/* WorkShop-section */
 
-/* WorkShop */
 #hero {
     background: url(../images/pexels-alexander-dummer-37646-133022.jpg) no-repeat center center/cover;
     height: 700px;
     width: 100%;
     box-shadow: inset -10px -10px 10px 20px #dedada;
     position: relative;
+    display: flex;
 }
 
 #covertext-wokshop {
-    background-color: rgb(175, 151, 123, .5);
+    background-color: rgb(8, 53, 96, .7);
     position: absolute;
-    top: 2rem;
+    top: 3rem;
     padding-left: 2rem;
     min-height: 200px;
     width: 80%;
-    font-size: 80%;
+    margin-left: 2rem;
 }
 
 #covertext-training {
-    background-color: rgb(175, 151, 123, .5);
+    background-color: rgb(8, 53, 96, .7);
     position: absolute;
-    bottom: 10rem;
+    bottom: 3rem;
     right: 1.5rem;
     min-height: 200px;
     width: 80%;
-    font-size: 80%;
+
+}
+
+#hero h2 {
+    color: #AF977B;
+}
+#hero h4 {
+    color: #DEE7ED;
 }
 
 #hero hr {
@@ -225,12 +230,13 @@ hr {
 
 /* buttons */
 .buttons {
-    background-color: #083560;
+    background-color: #AF977B;
     position: relative;
     color: white;
     display: block;
     margin: auto;
     top: 1rem;
+    
     padding: 8px 15px;
     border: none;
     border-radius: 4px;
@@ -241,20 +247,11 @@ hr {
     background-color: #002ead;
     transition: 0.7s;
 }
-.button:focus {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #5a01a7;
-    transition: 0.7s;
-}
-
-
 
 /* Where to find us */
 
 .map {
     width: 100%;
-    box-shadow: inset -10px -10px 10px 20px #ffff;
 }
 
 .location h2 {
@@ -310,7 +307,7 @@ footer {
         margin-top: 97px;
     }
 
-    .whatweoffer h2 {
+    .welcome h2 {
         padding-top: 2rem;
         padding-bottom: 1rem;
     }
@@ -324,6 +321,17 @@ footer {
         display: block;
         position: relative;
         right: 2rem;
+    }
+
+
+    .covertext h4 {
+        font-size: 150%;
+        color: #dedada;
+    }
+    
+    .covertext h2 {
+        font-size: 200%;
+        color: #dedada;
     }
 
 }
@@ -366,14 +374,18 @@ footer {
         flex-direction: row;
     }
 
-    .whatweoffer h2 {
+    .welcome h2 {
         font-size: 260%;
         padding-bottom: 1rem;
         padding-top: 2rem;
     }
 
-    .whatweoffer h3 {
+    .welcome h3 {
         font-size: 150%;
+    }
+
+    .welcome p {
+        font-size: 115%;
     }
 }
 
@@ -388,5 +400,9 @@ footer {
     /* Main */
     main {
         margin-top: 98px;
+    }
+
+    .welcome p {
+        font-size: 120%;
     }
 }
