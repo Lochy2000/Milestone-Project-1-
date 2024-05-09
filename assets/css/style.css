@@ -209,6 +209,7 @@ hr {
     min-height: 200px;
     width: 80%;
     margin-left: 2rem;
+    border-radius: 10px;
 }
 
 #covertext-training {
@@ -219,11 +220,12 @@ hr {
     padding: 1rem 1rem;
     min-height: 200px;
     width: 80%;
-
+    border-radius: 10px;
 }
 
 #hero h2 {
     color: #AF977B;
+ 
 }
 #hero h4 {
     color: #DEE7ED;
@@ -317,6 +319,7 @@ hr {
     align-self: center;
     color:#fafafa;
     font-size: 150%;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
 }
 .text-input {
     background: rgba(3, 10, 10, 0.808);
@@ -435,22 +438,14 @@ footer {
 
 /* Header */
 @media screen and (min-width: 760px) {
-    #logo {
+    #logo>h1{
         font-size: 250%;
         margin: 0 0.5rem;
-    }
-
-    #logo>h1 {
-        font-weight: 500;
-    }
-
-    h1> .the-art {
         font-weight: 500;
     }
 
     h1>.table-tennis {
         left: 10rem;
-        font-weight: 500;
     }
 
     /* Navigation */
@@ -517,8 +512,8 @@ footer {
 @media screen and (min-width: 982px) {
 
     /* Header */
-    #logo>h1 {
-        font-weight: 500;
+    #logo > h1 {
+        font-weight: 800;
     }
 
     #menu li{
@@ -532,5 +527,11 @@ footer {
 
     .welcome p {
         font-size: 120%;
+    }
+
+    /* form Page */
+
+    .container {
+        width: 40%;
     }
 }
