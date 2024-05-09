@@ -296,6 +296,52 @@ hr {
     line-height: 0;
 }
 
+/* form page */
+
+.form {
+    background: url(../images/form-bg.jpg)no-repeat center center / cover;
+    background-size: cover;
+    background-position: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: inherit;
+    background-color: rgba(145, 142, 139, 0.776);
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin: 5rem 5rem;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    color: #102243;
+    font-size: 150%;
+}
+.text-input {
+    background: rgba(3, 10, 10, 0.808);
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+.message {
+    background: rgba(3, 10, 10, 0.808);
+    color: #fafafa;
+    width: 100%;
+    height: 50px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+
+}
+
+
+
 /* Footer */
 footer {
     background-color: #083560;
@@ -463,7 +509,7 @@ footer {
     #logo>h1 {
         font-weight: 500;
     }
-    
+
     #menu li{
         font-size: 200%;
     }
