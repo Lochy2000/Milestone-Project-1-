@@ -315,7 +315,7 @@ hr {
     align-items: center;
     justify-items: center;
     align-self: center;
-    color: #102243;
+    color:#fafafa;
     font-size: 150%;
 }
 .text-input {
@@ -339,8 +339,19 @@ hr {
     padding: 0 5px;
 
 }
+.form-button {
+    position: relative;
+    margin-left: 2rem;
+    font-size: 100%;
+    background-color: #083560;
+    color: #fafafa;
+}
 
 
+.form-button:hover {
+    background-color:rgba(145, 142, 139, 0.776);
+    transition: 0.7s;
+}
 
 /* Footer */
 footer {
