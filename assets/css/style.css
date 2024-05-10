@@ -82,7 +82,7 @@ h1>.table-tennis {
     position: relative;
     letter-spacing: 4px;
     margin-top: 1px;
-    color: #083560;
+    color: #08345e;
 }
 
 #menu ul {
@@ -91,7 +91,7 @@ h1>.table-tennis {
 }
 
 #menu a:hover {
-    color: red;
+    color: #C51718;
 }
 
 /* Nav style and drop down */
@@ -154,7 +154,9 @@ main {
     text-align: center;
     font-size: 150%;
 }
-
+.about h4 {
+    text-align: center;
+}
 .about ul {
     list-style-type: none;
 }
