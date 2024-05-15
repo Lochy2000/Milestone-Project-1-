@@ -165,6 +165,75 @@ Form with Name,Email and more info. This is for people who want to ask any quest
   </tbody>
 </table>
 
+## Validation 
+### HTML 
+![image](https://github.com/Lochy2000/Milestone-Project-1-/assets/164012429/eab84c2d-f462-4b13-8eb5-169c818a5c8c)
+### CSS 
+![image](https://github.com/Lochy2000/Milestone-Project-1-/assets/164012429/b7f0ca79-e6c4-40e5-9e3b-b4e562922984)
+
+## LightHouse
+![image](https://github.com/Lochy2000/Milestone-Project-1-/assets/164012429/e28fd9cf-1b8b-46a9-94a8-b0b8a1491cea)
+
+## Resources
+- Sampled some of Love running code for benefit and drop down menu
+- Favicon for website logo
+- fontawsome for different emojies and social media icons
+- W3school.com used for buttons and parts of the form.
+- google fonts for website font-style
+- chrome,edge and firefox for testing website
+- visual studio code editor
+- Canva for image desgins
+
+
+## Bugs and solutions 
+
+<table>
+  <thead>
+    <tr>
+      <th>Bug</th>
+      <th>Solution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Website lighthouse performace red</td>
+      <td>Removed google maps iframe added an map image instead to increase page loading</td>
+    </tr>
+  </tbody>
+    <tbody>
+    <tr>
+      <td> Button had anchor element to add href</td>
+      <td> removed button and styled anchor to become a button</td>
+    </tr>
+      </tbody>
+          <tbody>
+    <tr>
+      <td>Images too large, slowing loading time</td>
+      <td>Images between 150-200KB could be reduced down to 15-30KB. Increasing lighthouse performance and site speed</td>
+    </tr>
+      </tbody>
+</table>
+
+
+## Credits
+
+### Reference
+- W3school.com - used for buttons and form
+- loverunning project - used for menu dropdown and benefits of table tennis section
+- codeinstitue - used for structuring and layout (header, main and footer)
+- Read me PP1 <a href="https://www.youtube.com/watch?v=jFGIQU2VVHc">video</a>
+
+### Media 
+- Canva ai used to generate table tennis bat images
+- <a href="https://unsplash.com/">Upsplash</a> used for background images
+- favicon for social media and all other icons on website
+
+## Acknowleadgements
+Thankyou to my mentor spence for his support and patience in my first project and my mum for testing out the website. 
+
+
+
+
 
 
 
