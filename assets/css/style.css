@@ -48,12 +48,10 @@ header a {
 /* Logo */
 h1>.the-art {
     color: #C51718;
-    -webkit-text-stroke: 1px #DEE7ED;
 
 }
 h1>.table-tennis {
     color: #302622;
-    -webkit-text-stroke: 1px #DEE7ED;
     position: relative;
     left: 0.1rem;
     z-index: 99;
