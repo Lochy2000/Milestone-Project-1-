@@ -207,7 +207,7 @@ Form with Name,Email and more info. This is for people who want to ask any quest
   </tbody>
     <tbody>
     <tr>
-      <td> Button had anchor element to add href</td>
+      <td> Button had anchor element</td>
       <td> removed button and styled anchor to become a button</td>
     </tr>
       </tbody>
