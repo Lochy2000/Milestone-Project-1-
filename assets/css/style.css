@@ -152,11 +152,11 @@ main {
 
 /* Table Tennis Image*/
 .table-tennis-bat {
-    background: url(../images/tableTennisBatGreyBG.png) no-repeat top center / cover;
+    background: url(../images/tableTennisBatGreyBG.jpg) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 450px;
+    max-height: 450px;
     margin-top: 2rem;
 }
 .tabletennis-image {
