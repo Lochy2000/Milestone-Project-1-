@@ -8,12 +8,17 @@ This site in meant to be informative about the club and table tennis. The end go
 
 ## Table of content
 1. [User-experience](#user-experience)
-2. [Design](#Design)
+2. [Design](#design)
 3. [Features](#features)
-4. [Testing](#Testing)
+4. [Testing](#testing)
+5. [Validation](#validation)
+6. [Lighthouse Test](#lighthouse)
+7. [Resources](#resources)
+8. [Bugs & Solutions](#bugs-&-solutions)
+9. [Credit](#credits)
 
 
-## 1. User Experience
+# 1. User Experience
 Gaining members for any club can be difficult and letting people know who you are is important. This website was built to give people the feel for the club and hopefully inevitably come and visit. 
 
 
@@ -165,16 +170,16 @@ Form with Name,Email and more info. This is for people who want to ask any quest
   </tbody>
 </table>
 
-## Validation 
+# 5. Validation 
 ### HTML 
 ![image](https://github.com/Lochy2000/Milestone-Project-1-/assets/164012429/eab84c2d-f462-4b13-8eb5-169c818a5c8c)
 ### CSS 
 ![image](https://github.com/Lochy2000/Milestone-Project-1-/assets/164012429/b7f0ca79-e6c4-40e5-9e3b-b4e562922984)
 
-## LightHouse
+# 6. LightHouse
 ![image](https://github.com/Lochy2000/Milestone-Project-1-/assets/164012429/e28fd9cf-1b8b-46a9-94a8-b0b8a1491cea)
 
-## Resources
+# 7. Resources
 - Sampled some of Love running code for benefit and drop down menu
 - Favicon for website logo
 - fontawsome for different emojies and social media icons
@@ -185,7 +190,7 @@ Form with Name,Email and more info. This is for people who want to ask any quest
 - Canva for image desgins
 
 
-## Bugs and solutions 
+# 8. Bugs and solutions 
 
 <table>
   <thead>
@@ -215,7 +220,7 @@ Form with Name,Email and more info. This is for people who want to ask any quest
 </table>
 
 
-## Credits
+# 9. Credits
 
 ### Reference
 - W3school.com - used for buttons and form
