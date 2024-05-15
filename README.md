@@ -8,9 +8,9 @@ This site in meant to be informative about the club and table tennis. The end go
 
 ## Table of content
 1. [User-experience](#user-experience)
-2. [Design](#design)
+2. [Design](#Design)
 3. [Features](#features)
-4. [Testing](#testing)
+4. [Testing](#Testing)
 
 
 ## 1. User Experience
